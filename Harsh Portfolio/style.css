@@ -89,3 +89,12 @@ ul li a:hover {
 #element {
     color: rgb(153, 153, 226);
 }
+
+/** project**/
+
+.prj {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+}

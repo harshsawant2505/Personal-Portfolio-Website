@@ -1,3 +1,11 @@
 .purple {
     color: rgb(141, 55, 223);
 }
+.box {
+    height: 60vh;
+    width: 23%;
+    border: 2px solid white;
+    padding: 20px 0 15px;
+    margin: 1rem 0 1rem;
+    background-color: white;
+}

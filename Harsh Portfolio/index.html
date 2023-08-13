@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Harsh - Developer Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-left">
+                Harsh's Portfolio
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#secondsection">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contact">Contact me</a></li> 
+                </ul>
+
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+               <div class="left1">Hi, My name is <span class="purple">Harsh Telang</span></div> 
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+               
+            </div>
+            <div class="rightsection">
+                <img src="logo.png" alt="">
+
+            </div>
+        </section>
+
+        <section class="secondsection">
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="abtcol1">
+                        <img src="abt.jpg" alt="">
+                    </div>
+                    <div class="abtcol2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Hi, I am Harsh Telang from Goa,India. I am a Computer Science Engineering student at GEC Goa and also a full stack Web Developer.  </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <script src="script.js">
+
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Android Developer', 'Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

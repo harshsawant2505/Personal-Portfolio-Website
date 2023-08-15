@@ -98,3 +98,59 @@ ul li a:hover {
     flex-wrap: wrap;
     margin-top: 12rem;
 }
+
+/** ----------------------------- Skills -----------------------**/
+
+#skills {
+    margin-top: 20rem;
+}
+.skl-head {
+   margin: 0 25%;
+}
+.skl-head h1 {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.skl-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.skl-left {
+    height: 100px;
+    width: 30%;
+    margin-left: 2rem;
+
+}
+
+.skl-left h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+.skl-right {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skl-box1 {
+    background-image: url(HTML5_logo_and_wordmark.svg);
+    background-size: 70px 68px;
+}
+.skl-box2 {
+    background-image: url(CSS3_logo_and_wordmark.svg);
+    background-size: 58px 68px;
+}
+.skl-box3 {
+    background-image: url(JavaScript_logo_PNG1.png);
+    background-size: 96px 69px;
+}
+.skl-box4 {
+    background-image: url(React-icon.svg);
+    background-size: 69px 63px;
+}
+.skl-box5 {
+    background-image: url(nextjs-logo.png);
+    background-size: 70px 70px;
+}

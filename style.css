@@ -28,7 +28,36 @@ ul li a:hover {
     font-size: 1.03rem;
     color: rgb(153, 153, 226);
 }
+
+/** ----------------------main-------------------- **/
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+#home > div {
+    width: 30%;
+}
+.leftsection {
+    font-size: 3rem;
+}
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+#element {
+    color: rgb(153, 153, 226);
+}
+
+
 /** --------------------abt----------------**/
+
+#second-section {
+    margin-top: 7rem;
+}
 
 .container {
     padding: 10px 10%;
@@ -67,42 +96,12 @@ ul li a:hover {
     margin: 20px 0 40px;
 }
 
-/** main **/
 
-#home {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 80px 0;
-}
-#home > div {
-    width: 30%;
-}
-.leftsection {
-    font-size: 3rem;
-}
-.rightsection img {
-    width: 80%;
-    margin: 50px 0;
-}
-
-#element {
-    color: rgb(153, 153, 226);
-}
-
-/** project**/
-
-.prj {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 12rem;
-}
 
 /** ----------------------------- Skills -----------------------**/
 
 #skills {
-    margin-top: 20rem;
+    margin-top: 7rem;
 }
 .skl-head {
    margin: 0 25%;
@@ -117,17 +116,20 @@ ul li a:hover {
     justify-content: space-between;
     margin-top: 5rem;
 }
+
 .skl-left {
     height: 100px;
     width: 30%;
     margin-left: 2rem;
 
 }
-
 .skl-left h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 800;
+    margin-top: 30px;
 }
+
+
 .skl-right {
     height: 100px;
     width: 60%;
@@ -137,20 +139,82 @@ ul li a:hover {
 .skl-box1 {
     background-image: url(HTML5_logo_and_wordmark.svg);
     background-size: 70px 68px;
+   
 }
+.skl-box1 h6 {
+    font-size: 0.8rem;
+    margin: 80px 17px;
+}
+
 .skl-box2 {
     background-image: url(CSS3_logo_and_wordmark.svg);
     background-size: 58px 68px;
 }
+.skl-box2 h6 {
+    font-size: 0.8rem;
+    margin: 80px 17px;
+}
+
 .skl-box3 {
     background-image: url(JavaScript_logo_PNG1.png);
     background-size: 96px 69px;
 }
+.skl-box3 h6 {
+    font-size: 0.8rem;
+    margin: 80px 2px;
+}
+
 .skl-box4 {
     background-image: url(React-icon.svg);
     background-size: 69px 63px;
 }
+.skl-box4 h6 {
+    font-size: 0.8rem;
+    margin: 80px 0px;
+}
+
 .skl-box5 {
     background-image: url(nextjs-logo.png);
     background-size: 70px 70px;
+}
+.skl-box5 h6 {
+    font-size: 0.8rem;
+    margin: 80px 10px;
+}
+
+.skl-box6 {
+    background-image: url(mongo.png);
+    background-size: 66px 66px;
+}
+.skl-box6 h6 {
+    font-size: 0.8rem;
+    margin: 80px 0px;
+}
+
+.skl-box7 {
+    background-image: url(express.png);
+    background-size: 64px 53px;
+}
+.skl-box7 h6 {
+    font-size: 0.8rem;
+    margin: 80px 4px;
+}
+
+.skl-box8 {
+    background-image: url(node.png);
+    background-size: 67px 67px;
+}
+.skl-box8 h6 {
+    font-size: 0.8rem;
+    margin: 80px 10px;
+}
+
+
+/** ---------------------------- project--------------------------**/
+
+.prj {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 12rem;
 }

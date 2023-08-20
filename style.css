@@ -218,3 +218,44 @@ ul li a:hover {
     flex-wrap: wrap;
     margin-top: 12rem;
 }
+
+
+/** ---------------------- contact ------------------- **/
+
+
+#contact {
+    margin: 100px 0px;
+}
+
+.contact-email {
+    display: flex;
+    margin: 25px 5px;
+}
+.contact-email p {
+    margin-left: 23px;
+}
+
+.contact-phone {
+    display: flex;
+    margin: 25px 5px;
+}
+.contact-phone p {
+    margin-left: 23px;
+}
+
+.contact-socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -7px 175px 0 0;
+}
+.contact-socials i {
+    font-size: 25px;
+    color: white;
+}
+
+/** ------------------------ footer ---------------- **/
+footer {
+    background-color: #0e0e1a;
+    display: flex;
+    padding: 23px 125px;
+}

@@ -5,6 +5,7 @@
     align-items: center;
     height: 80px;
     background-color:  rgb(2, 2, 63);
+    
 }
 .navbar ul {
     display: flex;
@@ -29,13 +30,18 @@ ul li a:hover {
     color: rgb(153, 153, 226);
 }
 
+
+
+
 /** ----------------------main-------------------- **/
+
 
 #home {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 80px 0;
+    
 }
 #home > div {
     width: 30%;
@@ -130,12 +136,15 @@ ul li a:hover {
 }
 
 
+
 .skl-right {
     height: 100px;
     width: 60%;
     display: flex;
     justify-content: space-evenly;
 }
+
+
 .skl-box1 {
     background-image: url(HTML5_logo_and_wordmark.svg);
     background-size: 70px 68px;
@@ -258,4 +267,25 @@ footer {
     background-color: #0e0e1a;
     display: flex;
     padding: 23px 125px;
+}
+
+/**-------------------------------------**/
+
+@media (max-width: 960px) {
+    .navbar ul {
+        display: none;
+    }
+   
+    #home {
+        display: inline-flex;
+    }
+
+    #second-section .container .row {
+        display: block;
+    }
+    .abtcol1 img {
+        width: 30%;
+    }
+    
+
 }
